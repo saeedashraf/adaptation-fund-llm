@@ -21,12 +21,6 @@ Before running the scripts, ensure you have:
    pip install -r requirements.txt
    ```
 
-3. **Important Windows Setup**
-   Before running the scripts, you need to remove the Windows path length limitation:
-   1. Follow the instructions in the [Python Windows documentation](https://docs.python.org/3/using/windows.html#removing-the-max-path-limitation)
-   2. This step is crucial as the scraper creates folders with long names
-   3. Without this modification, you may encounter exceptions during file saving
-
 ## Usage
 
 ### 1. Prepare Input Links
@@ -50,23 +44,3 @@ Before running the scripts, ensure you have:
    python script2.py
    ```
 2. The processed data will be saved to the specified output directory
-
-### 4. Start Fresh (Optional)
-To perform a fresh scraping run:
-1. Delete the database file
-2. Remove the output files folder
-3. Repeat steps 1-3 above
-
-## Troubleshooting
-
-- If you encounter path-related errors, ensure you've completed the Windows path limitation removal step
-- Dead links will be skipped automatically
-- Check the logs for any error messages during scraping
-
-## Contributing
-
-[Add your contribution guidelines here]
-
-## License
-
-[Add your license information here]
