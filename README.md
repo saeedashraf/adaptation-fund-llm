@@ -2,12 +2,6 @@
 
 A web scraping tool for collecting data from specified URLs of adaptation fund projects.
 
-## Prerequisites
-
-Before running the scripts, ensure you have:
-- Python 3.10 or above installed
-- Required Python packages 
-
 ## Setup Instructions
 
 1. Clone this repository:
