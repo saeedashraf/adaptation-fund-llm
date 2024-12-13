@@ -25,7 +25,7 @@ A web scraping tool for collecting data from specified URLs of adaptation fund p
 ### 2. Run the Scraper
 1. Execute script #1:
    ```bash
-   python script1.py
+   python sadaptation_fund_scrape_1.py
    ```
 2. **Important**: Run script #1 multiple times to catch any dropped requests
 3. Continue running until no new data is being scraped
@@ -35,6 +35,6 @@ A web scraping tool for collecting data from specified URLs of adaptation fund p
 ### 3. Generate Output
 1. Run script #2 to process the scraped data:
    ```bash
-   python script2.py
+   python adaptation_fund_write_data_2.py
    ```
 2. The processed data will be saved to the specified output directory
